@@ -1,0 +1,15 @@
+{
+  "name": "weather-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "fastify": "^4.2.1",
+    "node-fetch": "^3.2.9"
+  }
+}
